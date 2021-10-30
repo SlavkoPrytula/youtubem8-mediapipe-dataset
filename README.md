@@ -37,6 +37,9 @@ These three functions load the video from youtube by its unique id you specify y
 
 ```create_video(input_url, early_stopping=40)``` creates a video of face tracking by applying the landmarks on the face in the video. Then saves it. ``` early_stopping=40``` specifies how long (in seconds) you want to parse the video.
 
+**Please Refer:** the tested videos and their outputs are located in folders in this repository (```test_files```, ```output_files```)
+
+
 As the output you get the processed video by mediapipe baseline code. The code itself executes the face tracking and allows to save the processed file localy on yout device. 
 
 ```python
